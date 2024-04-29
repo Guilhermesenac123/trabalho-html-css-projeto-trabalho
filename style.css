@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kdam Thmor Pro",sans-serif;
+}
+
+body{
+    background-color: black;
+}
+#logo{
+    width: 70px;
+    height: auto;
+}
+
+header{
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+color: white;
+font-size: 19px;
+cursor: pointer;
+transition: .5s;
+}
+li:hover{
+    background-color: darkblue;
+    color: rgb(11, 43, 184);
+}
+/* header finalizado */
+/* iniciando baner  */
+#banner {
+    width: 100%;
+    height: 900px;
+    background-image: url("./img/Garantindo\ um\ futuro\ vibrante\ para\ todas\ as\ espécies\ marinhas..png");
+    background-size: cover;
+    background-position: 20% 0%;
+}
+/* Começãndo trailer */
+.trailer{
+    width: 70%;
+}
+#trailer-container{
+    width: 2220px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#sinopse{
+    width: 90%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-left: 90px;
+ border-style: solid;
+ color: #0f009b;
+ height: 120px;
+ border-radius: 2%;
+}
+
+.description{
+    color: #ffffff;
+    font-size: 17px;
+    width: 80%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+
+
+.texto{
+    position: absolute;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+footer{
+    height: 300px; 
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-texto{
+    color: #ffffff;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;  
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bolhas{
+    position: absolute;
+display: flex;
+}
+
+ .bolhas span{
+width: 30px;
+height: 30px;
+background: #090769;
+margin: 0 4px;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #e5ff00,
+ 0 0 50px #0768c2,
+ 0 0 100px #0094cead;
+ animation: animar calc(150s / var(--i)) linear infinite;
+ }
+
+@keyframes animar{
+    0% {
+       transform: translateY(100vh) scale(0); 
+    }
+    100%{
+        transform: translateY(-10vh) scale(1); 
+    }
+}
+
+
+ .bolhas span:nth-of-type(even){
+  background: #66d4ff; 
+  box-shadow: 0 0 0 10px #e5ff0044,
+  0 0 50px #0768c2,
+  0 0 100px #0094cead;
+ }
+ li{text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: 5px solid #0f009b;
+border-radius: 20%;
+}
+
+
+
